@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+}
+
+.homePageTags {
+    margin-left: 20px;
+}
+
+.pagination {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.paginationBtn {
+    background-color: #fff;
+    border: 1px solid #449d44;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.paginationBtn:hover {
+    color: #fff;
+    background-color: #449d44;
+    cursor: pointer;
+}
+

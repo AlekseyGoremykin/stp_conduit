@@ -1,0 +1,24 @@
+.tagsWrapper {
+    padding: 5px 10px 10px 10px;
+    background: #f3f3f3;
+    border-radius: 7px;
+    width: 200px;
+}
+
+.tag {
+    background-color: #818a91;
+    text-decoration: none;
+    min-width: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.1rem 0.6em;
+    margin-right: 3px;
+    margin-bottom: 0.2rem;
+    border-radius: 10rem;
+}
+
+.tagsTitle {
+    margin: 0 0 5px 0;
+}

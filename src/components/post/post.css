@@ -1,0 +1,78 @@
+.postWrapper {
+    width: 900px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 80px;
+}
+
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postAuthor {
+    color: #5CB85C;
+    display: block;
+    font-weight: 500;
+    margin: 0;
+}
+
+.postDate {
+    margin: 0;
+    color: #bbb;
+    font-size: 0.8rem;
+}
+
+.postTitle {
+    margin: 10px 0 0 0;
+}
+
+.postDescription {
+    margin: 0;
+}
+
+.readMore {
+    margin: 20px 0 20px 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #bbb;
+}
+
+.postAuthorAvatar {
+    width: 35px;
+    height: 35px;
+    margin: 5px 5px 0 0;
+    border-radius: 50%;
+}
+
+.authorInfoWrapper {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 15px 0 0;
+    border: 1px solid #449d44;
+    border-radius: 3px;
+    width: 40px;
+    height: 20px;
+}
+
+.likes:hover {
+    background-color: #449d44;
+    color: #fff;
+    cursor: pointer;
+}
+
+.heart {
+    width: 15px;
+    fill: #449d44;
+    color: #449d44;
+}
+
+.likes:hover >.heart{
+    fill: #fff;
+}
